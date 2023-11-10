@@ -2,9 +2,20 @@
     margin: 0px;
     background-color: black;
     color: white;
+    font-family: 'Inter';
 }
 
 #logo {
-    margin-left: 75px;
+    margin-left: 50px;
     margin-top: 50px;
+}
+
+#titulo-menu-superior {
+    margin-left: 150px;
+    margin-top: 75px;
+}
+
+#texto-menu-superior {
+    margin-left: 150px;
+    margin-top: 35px;
 }
