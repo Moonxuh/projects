@@ -1,3 +1,10 @@
 * {
+    margin: 0px;
     background-color: black;
+    color: white;
+}
+
+#logo {
+    margin-left: 75px;
+    margin-top: 50px;
 }
