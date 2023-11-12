@@ -1,9 +1,7 @@
 * {
     margin: 0px;
-    background-color: black;
-    background-image: url(Imagens/fundo-menu-superior.svg);
-    color: white;
     font-family: 'Inter';
+    background-size: 100%;
 }
 
 #logo {
@@ -19,4 +17,15 @@
 #texto-menu-superior {
     margin-left: 150px;
     margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#menusuperior {
+    background-image: url(Imagens/fundo-menu-superior.svg);
+    color: aliceblue;
+}
+
+#menuinformacional {
+    background-color: #EAECE5;
+
 }
