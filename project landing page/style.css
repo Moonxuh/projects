@@ -59,7 +59,7 @@
 
 #carrossel {
     background-color: #247BA0;
-    padding: 50px;
+    padding: 120px;
 }
 
 #titulo-carrossel {
@@ -69,7 +69,7 @@
 }
 
 #div-cards {
-    margin-top: 50px;
+    margin-top: 80px;
     display: grid;
     grid-auto-flow: column;
 }
@@ -88,4 +88,10 @@
 
 .seta {
     margin-top: 30%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
 }
