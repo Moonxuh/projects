@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     background-color: black;
+    background-image: url(Imagens/fundo-menu-superior.svg);
     color: white;
     font-family: 'Inter';
 }
