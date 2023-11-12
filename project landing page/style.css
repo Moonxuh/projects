@@ -77,3 +77,15 @@
 .card {
     margin-left: 170px;
 }
+
+#seta-esquerda {
+    display: none;
+}
+
+#Bruna {
+    display: none;
+}
+
+.seta {
+    margin-top: 30%;
+}
