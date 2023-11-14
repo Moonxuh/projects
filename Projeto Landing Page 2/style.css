@@ -12,3 +12,24 @@ header {
 #par-header {
     font-size: 21px;
 }
+
+#bloquinho {
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    padding: 5% 0% 3% 15%;
+}
+
+#corpo {
+    display: grid;
+    grid-auto-flow: column;
+    padding: 8%;
+}
+
+#corpo-texto {
+    padding: 25% 0% 25% 15%;
+}
+
+#imagem {
+    padding-left: 20%;
+}
