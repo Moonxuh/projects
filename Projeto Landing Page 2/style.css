@@ -1,0 +1,9 @@
+* {
+    font-family: "Inter";
+    margin: 0px;
+}
+header {
+    background-color: #303030;
+    color:#FFFFFF;
+    padding: 8% 0% 5% 5%;
+}
