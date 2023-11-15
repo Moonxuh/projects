@@ -17,5 +17,26 @@
     text-decoration-line: underline;
 
     color: #070f18;
-    margin: 10% 25% 10% 25%;
+    padding: 10% 25% 10% 25%;
+}
+
+#menu {
+    text-align: right;
+    margin-right: 20%;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu li {
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+a {
+    color: black;
 }
