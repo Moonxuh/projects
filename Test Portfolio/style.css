@@ -22,7 +22,7 @@
 
 #menu {
     text-align: right;
-    margin-right: 20%;
+    margin-right: 25%;
 }
 
 #menu ul {
@@ -39,4 +39,52 @@
 
 a {
     color: black;
+    text-decoration: none;
+}
+
+#buttonCta {
+    background: #1F7CFF;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 25px 10px 25px;
+}
+
+#headerCta {
+    margin-top: 10%;
+    padding-left: 23%;
+    padding-top: 4%;
+}
+
+#headerCta p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+    padding-top: 5%;
+    padding-bottom: 6%;
+}
+
+#headerCta h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 82px;
+    color: #000000;
+}
+
+#headerImg {
+    margin-top: 5%;
+    padding-right: 24%;
+}
+
+#headerImg img {
+    width: 100%;
 }
