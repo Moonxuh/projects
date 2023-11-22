@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(196, 103, 176, 0.801);
+    background-color: rgba(159, 103, 196, 0.801);
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -19,8 +19,8 @@ section {
     margin: auto;
 }
 
-#botao {
-    background-color: rgb(204, 72, 175);
+.botao {
+    background-color: rgb(162, 72, 204);
     color: rgb(239, 235, 228);
     border: 0px;
     width: 100px;
