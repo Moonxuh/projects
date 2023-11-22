@@ -1,0 +1,60 @@
+#header {
+    background-color: rgb(192, 5, 99);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Hubballi', cursive;
+}
+
+#nameAndTitle {
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nameAndTitle h1, h2 {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+#contact {
+    /* Define qual vai ser o estilo dos marcadores */
+    list-style-type: none;
+}
+
+#contact i {
+    /* Espacinho entre o ícone e a escrita */
+    width: 30px;
+    /* Cor do ícone */
+    color: rgb(192, 5, 99)
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 30px;
+    border-radius: 15px;
+    /* Aumentar o espaçamento */
+    padding: 20px;
+}
+
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    /* Espaço entre os quadrados */
+    row-gap: 20px;
+}
+
+.card h3 {
+    font-family: 'Hubballi', cursive;
+}
+
+.card {
+    font-family: Montserrat;
+    border: 1px solid rgb(189, 121, 155);
+    border-radius: 15px;
+    padding: 20px;
+}
