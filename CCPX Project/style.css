@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  #head {
+    width: 100%;
+    background: #ffd900;
+    padding: 2rem 0.5rem;
+    padding-left: 3rem;
+  }
+  
+  .central {
+    display: grid;
+    grid-template-columns: 750px 1fr;
+    justify-content: space-between;
+  }
+  
+  .geral {
+    width: 100%;
+    background: #514988;
+    padding: 32px;
+    border: 2px solid #ffd900;
+  }
+  
+  .title {
+    margin-bottom: 72px;
+  }
+  
+  #h1 {
+    /* REVIVA O ÉPICO*/
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    text-align: center;
+    color: #f3c61f;
+  
+    margin-bottom: 16px;
+  }
+  
+  #h5 {
+    /*DE 01 A 04 DE DEZEMBRO */
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36.46px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  
+    color: #ffffff;
+  }
+  
+  #textcenter {
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+  }
+  
+  #dia {
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    color: #514988;
+  }
+  
+  #hora {
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    color: #514988;
+  }
+  
+  #minuto {
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    color: #514988;
+  }
+  
+  #segundo {
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    color: #514988;
+  }
+  
+  #phrasevideo {
+    /* PARA A MAIOR CCXP DE TODOS OS TEMPOS */
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 6px;
+    color: #e33881;
+  }
+  
+  .countdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  #video {
+    padding: 1rem;
+    width: 100%;
+  }
+  
+  #run {
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    color: #f3c61f;
+  }
+  
+  .propaganda {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 10%;
+  
+    padding: 24px 32px;
+    height: 100%;
+  }
+  
+  .propaganda-esquerda {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .ingressos {
+    display: flex;
+    align-items: center;
+  }
+  
+  #atgsc {
+    color: #f3c61f;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  #botao {
+    font-family: "Verdana";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    position: relative;
+    
+  
+    background: #514988;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 34px 90px;
+    margin-top: 2rem;
+  }
+  
+  #botao:hover {
+    background: #514988;
+    cursor: pointer;
+    color: #f3c61f;
+  }
