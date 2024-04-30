@@ -22,3 +22,14 @@ main {
     margin-top: 15px;
     border-radius: 10px;
 }
+
+.inputpd {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
