@@ -42,3 +42,23 @@ button {
     border-radius: 5px;
     font-weight: bold;
 }
+
+.conteudo {
+    margin-top: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: #ccc;
+}
+
+table th {
+    background-color: #303030;
+    padding: 1px;
+    color: aliceblue;
+}
+
+table td {
+    padding: 1px;
+}
