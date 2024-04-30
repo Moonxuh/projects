@@ -33,3 +33,12 @@ input {
     border-radius: 5px;
     border: 1px solid #ccc;
 }
+
+button {
+    border: 0;
+    padding: 10px;
+    color: aliceblue;
+    background-color: #303030;
+    border-radius: 5px;
+    font-weight: bold;
+}
