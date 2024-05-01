@@ -3,6 +3,7 @@
 class Produto {
     constructor () {
         this.id = 1;
+        this.arrayProdutos= [];
     }
     Adicionar () {
         let produto = this.LerDados() 
@@ -33,6 +34,11 @@ class Produto {
             alert(msg)
             return false
         }
+        return true
+    }
+    Salvar(produto) {
+        this.arrayProdutos.push(produto)
+        this.id++;
     }
 }
 
