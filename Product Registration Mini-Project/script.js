@@ -6,6 +6,10 @@ class Produto {
     }
     Adicionar () {
         let produto = this.LerDados() 
+        console.log(produto)
+        if (this.Validar(produto)== true){
+            this.Salvar(produto)
+        }
     }
     LerDados(){
         let produto ={}
@@ -16,6 +20,20 @@ class Produto {
 
         return produto
     }  
+    Validar(produto) {
+        let msg = '';
+    
+        if (produto.nomeProduto == '') {
+            msg += 'Por favor, insira corretamente o nome do produto! \n'
+        } 
+        if (produto.precoProduto == '') {
+            msg += 'Por favor, insira corretamente o preço do produto! \n'
+        }
+        if (msg != ''){
+            alert(msg)
+            return false
+        }
+    }
 }
 
 var produto = new Produto()
