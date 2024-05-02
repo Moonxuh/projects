@@ -11,6 +11,7 @@ class Produto {
         if (this.Validar(produto)== true){
             this.Salvar(produto)
         }
+        this.listar()
     }
     LerDados(){
         let produto ={}
