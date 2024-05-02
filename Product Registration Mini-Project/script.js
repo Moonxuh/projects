@@ -41,6 +41,26 @@ class Produto {
         this.arrayProdutos.push(produto)
         this.id++;
     }
+    Listar(){
+        let tbody = document.getElementById(tbody)
+        tbody.innerText = ''
+        
+        for(let i = 0; i < this.arrayProdutos.lenght; i++ ) {
+
+            let tr = tbody.insertRow();
+
+            let td_id = tr.insertCell();
+            let td_nome = tr.insertCell();
+            let td_preco = tr.insertCell();
+            let td_del = tr.insertCell();
+
+            this.id.innerText = this.arrayProdutos[i].id;
+            this.nome.innerText = this.arrayProdutos[i].nomeProduto;
+            this.preco.innerText = this.arrayProdutos[i].precoProduto;
+            this.del.innerText = this.arrayProdutos[i].del;
+
+        }
+    }
 }
 
 var produto = new Produto()
