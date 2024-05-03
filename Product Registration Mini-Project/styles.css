@@ -38,13 +38,17 @@ button {
   
 table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate;
 }
   
 th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
+}
+
+tbody {
+    background-color: #ddd;
 }
   
 th {
