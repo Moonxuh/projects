@@ -62,3 +62,16 @@ body {
     background: #FF2978;
 
 }
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    height: 600px;
+    background: gray;
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+    border: 1px solid black;
+}
