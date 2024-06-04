@@ -116,9 +116,9 @@ section {
     border: 1px solid black;
     margin-left: 5%;
     margin-right: 5%;
-    height: 400px;
     padding: 5%;
     text-align: center;
+    width: 90%;
 }
 
 section h2 {
@@ -128,4 +128,29 @@ section h2 {
     font-family: 'Lobster', cursive;
     font-weight: bold;
     color: #180F4A;
+}
+
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #FF2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #FF2978;
+    color: white;
+    padding: 40px;
+}
+
+.texto-oculto {
+    display: none;
 }
