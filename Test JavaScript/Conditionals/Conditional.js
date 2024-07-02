@@ -1,8 +1,8 @@
-var dinheiro = 30;
-console.log(`Eu possuo R$ ${dinheiro},00`);
+var money = 30;
+console.log(`I have R$ ${money},00`);
 
-if (dinheiro > 50) {
-    console.log(`Comprei o presente!`)
+if (money > 50) {
+    console.log(`I buyed the gift!`)
 } else {
-    console.log(`Não possuo dinheiro...`)
+    console.log(`I don't have money..`)
 }

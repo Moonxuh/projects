@@ -137,6 +137,7 @@ section h2 {
 
 .card {
     display: inline-block;
+    text-align: center;
     width: 30%;
     padding: 20px;
     margin: 1%;
