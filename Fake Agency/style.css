@@ -152,6 +152,10 @@ section h2 {
     padding: 40px;
 }
 
+.card:hover img {
+    display: none;
+}
+
 .texto-oculto {
     display: none;
 }
