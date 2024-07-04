@@ -165,3 +165,11 @@ section h2 {
 .card:hover .texto-oculto {
     display: block;
 }
+
+footer {
+    margin-top: 100px;
+    height: 300px;
+    background-image: linear-gradient(180deg, #180F4A, #090422, black);
+    text-align: center;
+    border-top: 5px solid #FF2978;
+}
