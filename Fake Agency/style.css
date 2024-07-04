@@ -183,3 +183,9 @@ footer {
     color: white;
     font-size: 34px;
 }
+
+.whats { 
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
