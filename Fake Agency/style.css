@@ -16,6 +16,8 @@ body {
     background: white;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 .logo {
@@ -70,6 +72,7 @@ body {
     justify-content: center;
     align-items: center;
     background: white;
+    padding-top: 100px;
 }
 
 .headline {
