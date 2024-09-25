@@ -1,0 +1,14 @@
+{
+  "name": "npm-lara",
+  "version": "1.0.0",
+  "description": "Um pacote de teste",
+  "main": "indexnpm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lara",
+  "license": "ISC",
+  "dependencies": {
+    "cpf": "^2.0.1"
+  }
+}
