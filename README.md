@@ -57,6 +57,8 @@ This repository has a simple project for developing hard skills.
 
 - Project Landing Page 2
     - Very simple home page, with the functionality of just one form.
+    - The Figma file link for the model and creation respectively: https://abre.ai/hixZ
+    - Also in the challenge it was required for the website to be hosted on the Netlify website: https://landingpage-project10.netlify.app/
         - HTML and CSS.
 
 - Test Curriculum
