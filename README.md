@@ -53,6 +53,7 @@ This repository has a simple project for developing hard skills.
 - Project Landing Page
     - Project with well-structured CSS and the acquisition of a form.
     - It has functionality to scroll elements to the right or left.
+    - It was also extremely important to learn how to host it on the Netlify website: https://testdnc-landingpage.netlify.app/
         - HTML, CSS and JS.
 
 - Project Landing Page 2
