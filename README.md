@@ -14,6 +14,7 @@ This repository has a simple project for developing hard skills.
     - Reproduction of an annual event.
     - Contains the inclusion of a video.
     - Contains a countdown timer to the start of the event.
+    - Figma Link: https://encurtador.com.br/eotyZ
         - HTML, CSS and JS.
 
 - Countdown
